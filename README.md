@@ -5,7 +5,7 @@ To begin, write the command as follows
 
 `start <player_X> <player_O>`
 
-Here choose *player_X* and  *player_X* using any of these keywords `easy`, `medium`, `hard`, or `user`
+Here choose *player_X* and  *player_O* using any of these keywords `easy`, `medium`, `hard`, or `user`
 
 **Example**
 
