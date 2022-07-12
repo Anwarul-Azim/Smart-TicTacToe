@@ -4,7 +4,7 @@ package tictactoe;
 import tictactoe.players.Player;
 
 public class Main {
-    static void playGame() throws InterruptedException {
+    static void playGame() throws InterruptedException, IllegalArgumentException {
         GameSettings settings;
         GameState state;
         while (true) {
@@ -35,6 +35,9 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException {
         playGame();
+
+
+
     }
 
 }

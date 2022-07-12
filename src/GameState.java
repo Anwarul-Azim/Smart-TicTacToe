@@ -35,7 +35,7 @@ public class GameState {
         lastMoveSymbol = symbol;
         state[lastMove[0]][lastMove[1]] = symbol;
         --emptyCellCounter;
-        System.out.println(lastMoveSymbol + " at " + lastMove[0] + " " + lastMove[1]);
+        System.out.println(lastMoveSymbol + " at " + (lastMove[0] + 1) + " " + (lastMove[1] + 1));
     }
 
     public boolean isWiningMove(int[] coOrd, char symbol) {
